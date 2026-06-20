@@ -1,70 +1,83 @@
-# 📊 End-to-End Data Analytics Portfolio
-> **Decodelabs Capstone Tasks** — A structured compilation of projects tracking the full data lifecycle: from raw cleaning to advanced database querying and business storytelling.
-
----
+# 📊 Jupyter Notebook Data Analytics Portfolio
+ **Decodelabs Capstone Tasks** — A streamlined compilation of projects tracking the full data lifecycle natively inside a Jupyter Notebook environment.
 
 ## 🛠️ Unified Tech Stack & Capabilities
 
-| Phase | Core Technologies | Key Methodologies |
-| :--- | :--- | :--- |
-| **Data Cleaning** | `Python` • `Pandas` • `NumPy` | Deduplication, Type Casting, Outlier Imputation |
-| **EDA** | `Python` • `Matplotlib` • `Seaborn` | Correlation Matrices, Feature Distribution, Statistics |
-| **SQL Analysis** | `MySQL` / `PostgreSQL` | CTEs, Window Functions, Table Joins, Aggregations |
-| **Visualization** | `Power BI` / `Tableau` | Interactive Dashboards, KPI Tracking, Storytelling |
+* **Data Cleaning:** Python • Pandas • NumPy
+* **EDA:** Python • Matplotlib • Seaborn
+* **SQL Analysis:** Jupyter SQL Extensions • SQL Queries
+* **Data Visualization:** Python Plotting Libraries • Interactive Notebook Charts
 
----
-
-## 📂 Project Modules
+## 📂 Project Notebook Modules
 
 ### 🧼 Module 1: Data Cleaning & Preparation
 
-* **🎯 Objective**
-  To clean and transform raw, messy data into a structured and analysis-ready format by handling missing values, removing duplicates, correcting data types, and improving overall data quality.
-* **📝 Workflow Description**
-  This project focuses on data cleaning and preparation using Python. The dataset is processed through a structured workflow that includes data inspection, handling missing values, removing duplicate records, standardizing column formats, correcting data types, and resolving inconsistencies. The final output is a clean dataset suitable for further analysis and visualization.
-* **📁 Dataset Details**
-  * **Source:**  `Dataset for Data Analytics.csv`
-  * **Type:** Structured Data (CSV format)
+#### 🎯 Objective
+To clean and transform raw, messy data into a structured and analysis-ready format by handling missing values, removing duplicates, correcting data types, and improving overall data quality.
 
----
+#### 🧹 Data Cleaning Steps Performed
+* Imported and explored the dataset
+* Identified and handled missing values
+* Removed duplicate records
+* Standardized column names and corrected data types
+* Treated inconsistent/invalid values and verified final dataset
+
+#### 📁 Project Files
+* Data_Cleaning_and_Preparation.ipynb
+* Dataset for Data Analytics.csv
+* README.md
 
 ### 📈 Module 2: Exploratory Data Analysis (EDA)
 
-* **🎯 Objective**
-  To explore and analyze the dataset to uncover underlying patterns, trends, relationships, and anomalies using statistical summaries and graphical representations.
-* **📝 Workflow Description**
-  Conducted deep-dive univariate and multivariate analysis using Python. Computed descriptive statistics, plotted feature distributions using histograms and box plots, and evaluated correlation heatmaps to extract hidden domain insights.
-* **📁 Dataset Details**
-  * **Source:** Preprocessed Analytics Dataset
-  * **Type:** Cleaned Structured Data
+#### 🎯 Objective
+To explore and analyze the dataset to uncover underlying patterns, trends, relationships, and anomalies using statistical summaries and graphical representations.
 
----
+#### 📊 EDA Steps Performed
+* Generated overall descriptive statistics summary
+* Plotted feature distributions using histograms
+* Built box plots to identify data outliers
+* Created correlation heatmaps to spot relationships between variables
+
+#### 📁 Project Files
+* Exploratory_Data_Analysis.ipynb
+* Dataset for Data Analytics.csv
+* README.md
 
 ### 🗄️ Module 3: SQL Data Analysis
 
-* **🎯 Objective**
-  To write optimized SQL queries to extract, manipulate, and analyze relational data to answer critical business performance questions.
-* **📝 Workflow Description**
-  Migrated the cleaned schema into a relational database engine. Authored structured SQL queries utilizing Advanced Joins, Common Table Expressions (CTEs), and Window Functions (such as `RANK()` and `PARTITION BY`) to solve complex analytical business questions.
-* **📁 Dataset Details**
-  * **Source:** Relational Database Schema / DB Export
-  * **Type:** Normalized SQL Tables
+#### 🎯 Objective
+To write optimized SQL queries to extract, manipulate, and analyze relational data to answer critical business performance questions.
 
----
+#### 🗄️ SQL Steps Performed
+* Loaded data frames into relational tables inside the notebook
+* Filtered and sorted records using conditional queries
+* Performed metric aggregations using grouping functions
+* Executed advanced queries using table joins and window functions
 
-### 🎨 Module 4: Data Visualization & Reporting
+#### 📁 Project Files
+* SQL_Data_Analysis.ipynb
+* Dataset for Data Analytics.csv
+* README.
 
-* **🎯 Objective**
-  To transform complex datasets into interactive, easy-to-understand dashboards and visual stories that drive executive decision-making.
-* **📝 Workflow Description**
-  Translated static performance data into a user-centric dashboard dashboard. Designed dynamic charts featuring cross-filtering capabilities, quick-glance high-level KPIs, and breakdown trends allowing stakeholders to drill down into operational metrics effortlessly.
-* **📁 Dataset Details**
-  * **Source:** Aggregated Business Dataset
-  * **Type:** BI Semantic Model / Dashboard Report
+### 🎨 Module 4: Data Visualization
 
----
+#### 🎯 Objective
+To transform complex datasets into interactive, easy-to-understand dashboards and visual stories that drive executive decision-making.
 
-## 📈 Portfolio Impact & Key Outcomes
-1. **Data Integrity:** Transformed highly inconsistent, raw spreadsheets into an enterprise-ready dataset.
-2. **Actionable Intelligence:** Extracted key operating trends through granular SQL querying and exploratory math scripts.
-3. **Strategic Delivery:** Designed interactive user experiences allowing teams to make data-driven decisions instantly.
+#### 🎨 Visualization Steps Performed
+* Generated time-series line graphs to illustrate periodic trends
+* Built categorical bar charts for data comparison
+* Formatted charts with clean color themes and labels
+* Compiled individual plots into a unified inline dashboard report
+
+#### 📁 Project Files
+* Data_Visualization.ipynb
+* Dataset for Data Analytics.csv
+* requirements.txt
+* README.md
+
+
+ 
+ 
+
+
